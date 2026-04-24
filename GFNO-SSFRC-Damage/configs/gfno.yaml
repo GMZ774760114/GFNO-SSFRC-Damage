@@ -1,0 +1,47 @@
+# =========================
+# Dataset
+# =========================
+data_dir: data/dataset
+out_dir: results/gfno_run
+
+# =========================
+# Training
+# =========================
+seed: 2026
+epochs: 220
+batch_size: 16
+
+learning_rate: 0.001
+weight_decay: 1e-5
+warmup_epochs: 10
+
+# =========================
+# Model
+# =========================
+hidden_dim: 128
+num_layers: 6
+
+knn_k: 10
+max_segments: 768
+m_modes: 64
+
+# =========================
+# Data split
+# =========================
+val_ratio: 0.15
+test_ratio: 0.15
+
+# =========================
+# Loss
+# =========================
+use_uncertainty_weighting: true
+shear_extra_weight: 2.5
+
+lambda_trace: 0.0
+lambda_frob: 0.0
+
+# =========================
+# Rotation
+# =========================
+rot_n: 24
+rot_feat_mode: onehot
