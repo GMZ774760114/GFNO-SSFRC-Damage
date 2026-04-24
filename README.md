@@ -32,3 +32,6 @@ See `data/README_data.md` for details.
 
 ```bash
 python code/train_gfno.py
+<img width="8192" height="5469" alt="Picture1" src="https://github.com/user-attachments/assets/8a67997c-2480-43d6-bb8a-121319eb9d67" />
+<img width="8192" height="8192" alt="Picture2" src="https://github.com/user-attachments/assets/dc4b8852-44f7-4a99-9d27-3283ec314d6c" />
+
